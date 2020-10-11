@@ -1,0 +1,43 @@
+:root{
+  --bar-width:0;
+}
+
+img{
+max-width: 100%;
+}
+
+.load-bar{
+width: 50%;
+background-color:#ccc;
+height: 20px;
+position: relative;
+margin:	1rem 0;
+}
+
+
+.load-bar::after{
+content: '';
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+background: royalblue;
+width: var(--bar-width);
+height: 20px;
+
+
+}
+
+.progress{
+display: block;
+background-color: royalblue;
+height: 20px;
+width:0;
+}
+
+
+
+
+
+
+

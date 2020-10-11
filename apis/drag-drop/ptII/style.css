@@ -1,0 +1,49 @@
+.container{
+margin-top:1rem;
+display:flex;
+justify-content:center;
+align-items:flex-start;
+}
+
+
+.tasks{
+width: 30%;
+text-align: center;
+background: rgb(48, 166, 221);
+border: 1px solid black;
+min-height: 130px;
+}
+
+
+.tasks:first-child{
+margin-right: 1rem;
+
+}
+
+.task{
+	background-color: #7e57c2;
+	padding: 1rem;
+	border-bottom: 1px solid #000;
+}
+
+.task:first-child{
+	border-top: 1px solid #000;
+}
+
+.task:last-child{
+	border-bottom: none;
+
+}
+
+
+.active{
+	background-color: white;
+	color: black;
+}
+
+
+
+
+
+
+

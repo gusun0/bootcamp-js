@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+	<form class="form" method="post" enctype="multipart/form-data">
+		<div>
+			<input class="hide" type="file" name="file" id="file" multiple>
+			<div id="drop-zone" class="drop-zone">
+				<i class="fas fa-file-upload"></i> 
+				<p class="drop-zone__text">
+				DROP file or click to upload file
+				</p>
+			</div>
+		</div>
+		<input type="submit" id="upload-button" class="form__button" >
+	</form>
+
+	<script src="app.js">
+	</script>
+	</body>
+</html>
+
